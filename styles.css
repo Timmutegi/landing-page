@@ -1,10 +1,42 @@
-.hero-section .jumbotron {
-  background-color: #05ADED;
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.hero-section .jumbotron .lead {
-  margin-top: 20px;
-  color: white;
+.hero-section .jumbotron {
+  background-color: white;
+}
+
+.hero-section .jumbotron .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-section .jumbotron .container .display-4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-section .jumbotron .container .lead {
+  font-family: 'Lato', sans-serif;
+  color: #0073bd;
+}
+
+.hero-section .jumbotron .container button {
+  border-radius: 0px;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+}
+
+.hero-section .jumbotron .container .svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: flex;
+      -ms-flex-align: flex;
+          align-items: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #main {
@@ -22,11 +54,13 @@
 
 #main .card .collapse {
   border: none;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer {
   min-height: 300px;
-  background-color: #05ADED;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#05aded), to(#0073bd));
+  background-image: linear-gradient(180deg, #05aded, #0073bd);
   color: white;
 }
 
@@ -36,7 +70,8 @@
 
 .footer .container p {
   text-align: center;
-  font-weight: bold;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer .container .grids {
@@ -47,16 +82,16 @@
       justify-content: space-around;
 }
 
-.footer .container .grids .one h4 {
-  font-weight: bold;
-  color: black;
+.footer .container .grids .one {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
 }
 
 .footer .container .grids .two {
   text-align: center;
 }
 
-.footer .container .grids .two h4 {
+.footer .container .grids .two h5 {
   color: black;
   font-weight: bold;
 }
@@ -80,9 +115,11 @@
 }
 
 @media only screen and (max-width: 768px) {
-  p {
-    padding-bottom: 50px;
-    margin-bottom: 0px !important;
+  .jumbotron .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .footer {
     margin-bottom: 0px;
@@ -98,6 +135,10 @@
   }
   .footer .grids .two {
     margin-top: 20px;
+  }
+  .footer p {
+    padding-bottom: 50px;
+    margin-bottom: 0px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
