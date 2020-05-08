@@ -90,6 +90,9 @@
     .jumbotron {
         .container {
             flex-direction: column;
+            .display-4 {
+                font-size: 35px;
+            }
         }
     }
     .footer {
