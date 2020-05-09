@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar-brand {
     font-family: 'Montserrat', sans-serif;
     color: #0073bd !important;
@@ -14,6 +18,10 @@
             .lead {
                 font-family: 'Lato', sans-serif;
                 color: #0073bd;
+            }
+            .terms {
+                font-family: 'Lato', sans-serif;
+                font-size: 13px;
             }
             button {
                 border-radius: 0px;
