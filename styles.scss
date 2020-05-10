@@ -19,15 +19,6 @@ html {
                 font-family: 'Lato', sans-serif;
                 color: #0073bd;
             }
-            .terms {
-                font-family: 'Lato', sans-serif;
-                font-size: 13px;
-            }
-            button {
-                border-radius: 0px;
-                font-size: 13px;
-                font-family: 'Lato', sans-serif;
-            }
             .svg {
                 display: flex;
                 align-items: flex;
@@ -42,6 +33,20 @@ html {
     h3 {
         margin-top: 30px;
         font-family: 'Montserrat', sans-serif;
+    }
+    .acceptance {
+        margin-top: 50px;
+    }
+    .call-to-action {
+        .terms {
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+        }
+        button {
+            border-radius: 0px;
+            font-size: 13px;
+            font-family: 'Lato', sans-serif;
+        }
     }
     .card {
         border: none;
@@ -102,7 +107,22 @@ html {
             flex-direction: column;
             .display-4 {
                 font-size: 35px;
+                text-align: center;
             }
+            .lead {
+                text-align: center;
+            }
+        }
+    }
+    #main {
+        h3 {
+            text-align: center;
+        }
+        .call-to-action {
+            padding-top: 20px;
+            text-align: center;
+            margin: 0 auto;
+            width: 70%;
         }
     }
     .footer {
