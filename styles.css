@@ -146,6 +146,9 @@ html {
   #main h3 {
     text-align: center;
   }
+  #main .btn-link {
+    text-align: left;
+  }
   #main .call-to-action {
     padding-top: 20px;
     text-align: center;
