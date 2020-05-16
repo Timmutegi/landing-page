@@ -47,6 +47,10 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+#main span {
+  color: #0073BD;
+}
+
 #main .acceptance {
   margin-top: 50px;
 }
