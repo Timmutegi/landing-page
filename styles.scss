@@ -34,6 +34,25 @@ html {
         margin-top: 30px;
         font-family: 'Montserrat', sans-serif;
     }
+    .collapsible-link {
+        width: 100%;
+        position: relative;
+        text-align: left;
+        // color: black;
+    }
+    .collapsible-link::before {
+        content: '\f107';
+        position: absolute;
+        top: 50%;
+        right: 0.8rem;
+        transform: translateY(-50%);
+        display: block;
+        font-family: 'FontAwesome';
+        font-size: 1.1rem;
+    }
+    .collapsible-link[aria-expanded='true']::before {
+        content: '\f106';
+    }
     span {
         color: #0073BD;
     }
