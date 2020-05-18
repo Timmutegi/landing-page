@@ -47,17 +47,35 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+#main .card {
+  border: none;
+  border-radius: 0px;
+}
+
+#main .card .card-header {
+  border: none;
+}
+
+#main .card .collapse {
+  border: none;
+  font-family: 'Lato', sans-serif;
+}
+
 #main .collapsible-link {
   width: 100%;
   position: relative;
   text-align: left;
 }
 
+#main .btn-link {
+  text-decoration: none;
+}
+
 #main .collapsible-link::before {
   content: '\f107';
   position: absolute;
   top: 50%;
-  right: 0.8rem;
+  right: 0rem;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   display: block;
@@ -85,16 +103,6 @@ html {
 #main .call-to-action button {
   border-radius: 0px;
   font-size: 13px;
-  font-family: 'Lato', sans-serif;
-}
-
-#main .card {
-  border: none;
-  border-radius: 0px;
-}
-
-#main .card .collapse {
-  border: none;
   font-family: 'Lato', sans-serif;
 }
 
