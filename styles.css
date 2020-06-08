@@ -9,12 +9,16 @@ html {
 
 .hero-section .jumbotron {
   background-color: white;
+  padding: 0px;
 }
 
 .hero-section .jumbotron .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero-section .jumbotron .container .display-4 {
@@ -36,6 +40,15 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.hero-section .jumbotron .container .terms {
+  font-size: 13px;
+}
+
+.hero-section .jumbotron .container button {
+  border-radius: 0px;
+  font-size: 13px;
 }
 
 #main {
@@ -176,6 +189,10 @@ html {
   }
   .jumbotron .container .lead {
     text-align: center;
+  }
+  .jumbotron .container button {
+    display: block;
+    margin: 0 auto;
   }
   #main h3 {
     text-align: center;

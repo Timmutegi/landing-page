@@ -10,8 +10,10 @@ html {
 .hero-section {
     .jumbotron {
         background-color: white;
+        padding: 0px;
         .container {
             display: flex;
+            align-items: center;
             .display-4 {
                 font-family: 'Montserrat', sans-serif;
             }
@@ -23,6 +25,13 @@ html {
                 display: flex;
                 align-items: flex;
                 justify-content: center;
+            }
+            .terms {
+                font-size: 13px;
+            }
+            button {
+                border-radius: 0px;
+                font-size: 13px;
             }
         }
     }
@@ -138,6 +147,10 @@ html {
             }
             .lead {
                 text-align: center;
+            }
+            button {
+                display: block;
+                margin: 0 auto;
             }
         }
     }
