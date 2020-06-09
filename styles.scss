@@ -2,9 +2,43 @@ html {
     scroll-behavior: smooth;
 }
 
-.navbar-brand {
-    font-family: 'Montserrat', sans-serif;
-    color: #0073bd !important;
+.navbar {
+    .navbar-brand {
+        font-family: 'Montserrat', sans-serif;
+        color: #0073bd !important;
+    }
+    button {
+        border: 0px;
+    }
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/doctor-woman.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    margin-bottom: 30px;
+    .container {
+        padding-top: 150px;
+        .display-4 {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+        .lead {
+            color: #0073BD;
+            font-family: 'Lato', sans-serif;
+        }
+        .terms {
+            width: 30%;
+            color: white;
+            font-size: 13px;
+            font-family: 'Lato', sans-serif;
+        }
+        button {
+            border-radius: 0px;
+            font-size: 13px;
+        }
+    }
 }
 
 .hero-section {
@@ -37,9 +71,52 @@ html {
     }
 }
 
+.text-center {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .col-md-3 {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Lato', sans-serif;
+        }
+    }
+}
+
+.info {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .col-md-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        a {
+            font-family: 'Lato', sans-serif;
+            color: black;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+    }
+}
+
 #main {
     margin-bottom: 40px;
-    h3 {
+    h4 {
         margin-top: 30px;
         font-family: 'Montserrat', sans-serif;
     }
@@ -112,6 +189,11 @@ html {
                 font-family: 'Lato', sans-serif;
                 font-size: 15px;
             }
+            .three {
+                font-family: 'Lato', sans-serif;
+                display: flex;
+                flex-direction: column;
+            }
             .two {
                 text-align: center;
                 h5 {
@@ -138,6 +220,16 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+    .hero {
+        min-height: 300px;
+        .container {
+            padding-top: 50px;
+            .terms {
+                width: 100%;
+                font-size: 11px;
+            }
+        }
+    }
     .jumbotron {
         .container {
             flex-direction: column;
@@ -153,6 +245,12 @@ html {
                 margin: 0 auto;
             }
         }
+    }
+    .steps {
+        flex-direction: column;
+    }
+    .info {
+        flex-direction: column;
     }
     #main {
         h3 {
@@ -173,6 +271,9 @@ html {
         .grids {
             flex-direction: column;
             .one {
+                margin: 0 auto;
+            }
+            .three {
                 margin: 0 auto;
             }
             .two {

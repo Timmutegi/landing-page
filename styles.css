@@ -2,9 +2,48 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
   font-family: 'Montserrat', sans-serif;
   color: #0073bd !important;
+}
+
+.navbar button {
+  border: 0px;
+}
+
+.hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("images/doctor-woman.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/doctor-woman.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  margin-bottom: 30px;
+}
+
+.hero .container {
+  padding-top: 150px;
+}
+
+.hero .container .display-4 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.hero .container .lead {
+  color: #0073BD;
+  font-family: 'Lato', sans-serif;
+}
+
+.hero .container .terms {
+  width: 30%;
+  color: white;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+}
+
+.hero .container button {
+  border-radius: 0px;
+  font-size: 13px;
 }
 
 .hero-section .jumbotron {
@@ -51,11 +90,89 @@ html {
   font-size: 13px;
 }
 
+.text-center {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps .col-md-3 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps .col-md-3 p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.info {
+  min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info .col-md-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info .col-md-4 a {
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.info .col-md-4 a:hover {
+  text-decoration: none;
+}
+
 #main {
   margin-bottom: 40px;
 }
 
-#main h3 {
+#main h4 {
   margin-top: 30px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -149,6 +266,17 @@ html {
   font-size: 15px;
 }
 
+.footer .container .grids .three {
+  font-family: 'Lato', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .footer .container .grids .two {
   text-align: center;
 }
@@ -177,6 +305,16 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+  .hero {
+    min-height: 300px;
+  }
+  .hero .container {
+    padding-top: 50px;
+  }
+  .hero .container .terms {
+    width: 100%;
+    font-size: 11px;
+  }
   .jumbotron .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -193,6 +331,18 @@ html {
   .jumbotron .container button {
     display: block;
     margin: 0 auto;
+  }
+  .steps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #main h3 {
     text-align: center;
@@ -216,6 +366,9 @@ html {
             flex-direction: column;
   }
   .footer .grids .one {
+    margin: 0 auto;
+  }
+  .footer .grids .three {
     margin: 0 auto;
   }
   .footer .grids .two {
