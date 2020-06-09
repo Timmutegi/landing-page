@@ -2,8 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar .navbar-brand {
+.navbar {
   font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .navbar-brand {
   color: #0073bd !important;
 }
 
@@ -12,16 +15,19 @@ html {
 }
 
 .hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("images/doctor-woman.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("images/doctor-woman.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("images/doctor-woman.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/doctor-woman.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 90vh;
   margin-bottom: 30px;
-}
-
-.hero .container {
-  padding-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .container .display-4 {
@@ -165,7 +171,6 @@ html {
 
 .info .col-md-4 a {
   font-family: 'Lato', sans-serif;
-  color: black;
 }
 
 .info .col-md-4 a:hover {
@@ -312,9 +317,6 @@ html {
 @media only screen and (max-width: 768px) {
   .hero {
     height: 80vh;
-  }
-  .hero .container {
-    padding-top: 50px;
   }
   .hero .container .terms {
     width: 100%;
