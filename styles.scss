@@ -13,7 +13,7 @@ html {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/doctor-woman.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/doctor-man.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ html {
             color: white;
         }
         .lead {
-            color: #0073BD;
+            color: white;
             font-family: 'Lato', sans-serif;
         }
         .terms {
