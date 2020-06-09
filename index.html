@@ -13,16 +13,33 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="navbar">
-            <nav class="navbar navbar-light" style="padding: 0;">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" width="50" height="50" alt="">BLUEWAVE
-                </a>
-            </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" width="50" height="50" alt="bluewave logo">Bluewave
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="faqs.html">FAQs</a>
+                <a class="nav-item nav-link" href="terms.html">Terms</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="hero">
+        <div class="container">
+            <h1 class="display-4">Teletiba</h1>
+            <p class="lead">Healthcare Made Easier.</p>
+            <p class="terms">I have read and accepted the <a href="terms.html">terms</a> and <a href="https://go.aws/38UkZf9" target="_blank">Privacy Policy</a> of Teletiba and would like to proceed.</p>
+            <button type="button" class="btn btn-primary">Consult a Doctor <i class="fas fa-arrow-right"></i></button>
         </div>
     </div>
-
+    <!-- 
     <div class="hero-section">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
@@ -37,25 +54,38 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <div class="container">
+        <h4 class="text-center">How Teletiba works in 3 easy steps</h4>
+        <div class="steps">
+            <div class="col-md-3">
+                <img src="images/holding-phone-colour-1200px.png" height="200px" width="200px">
+                <p>Visit our portal or dial 0711 082 228.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/app-user-colour.svg" height="200px" width="200px">
+                <p>Schedule a call and pay.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/doctor-colour-1200px.png" height="200px" width="200px">
+                <p>Get access to a doctor.</p>
+            </div>
+        </div>
+        <hr>
     </div>
 
-    <div class="container" id="steps">
-
-    </div>
-
-    <div class="container" id="main">
-        <div class="col-md-4">
-            Terms
-
+    <div class="container">
+        <div class="info">
+            <div class="col-md-4 mb-4">
+                <img src="images/faqs.png" height="200px" width="200px">
+                <a href="faqs.html">FAQs</a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/terms.png" height="200px" width="200px">
+                <a href="terms.html">Terms</a>
+            </div>
         </div>
-        <div class="col-md-4">
-
-
-        </div>
-        <div class="col-md-4">
-
-        </div>
-
     </div>
 
     <div class="footer">
@@ -71,6 +101,12 @@
                        <a href="https://www.bluewaveinsurance.co" target="_blank">www.bluewaveinsurance.co</a>
                     </address>
                 </div>
+                <div class="three">
+                    <a href="index.html">Home</a>
+                    <a href="faqs.html">Frequently Asked Questions</a>
+                    <a href="terms">Terms & Conditions</a>
+                    <a href="https://go.aws/38UkZf9">Privacy Policy</a>
+                </div>
                 <div class="two">
                     <h5>Follow us</h5>
                     <a href="https://web.facebook.com/Bluewave.Ins/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
@@ -79,6 +115,7 @@
                     <a href="https://www.linkedin.com/company/bluewave-insurance" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
                     <a href="https://www.youtube.com/channel/UCRR0CihxCgRz20vZzDORBWA" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
                 </div>
+
             </div>
             <hr>
             <p style="font-size: 13px;">&copy; 2020 Bluewave Telemedicine. All Rights Reserved.</p>
