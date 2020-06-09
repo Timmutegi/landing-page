@@ -306,10 +306,10 @@ html {
 
 @media only screen and (max-width: 768px) {
   .hero {
-    min-height: 300px;
+    min-height: 400px;
   }
   .hero .container {
-    padding-top: 50px;
+    padding-top: 80px;
   }
   .hero .container .terms {
     width: 100%;
