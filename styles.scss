@@ -90,6 +90,9 @@ html {
             text-align: center;
             font-size: 15px;
             font-family: 'Lato', sans-serif;
+            span {
+                font-weight: bold;
+            }
         }
     }
 }
@@ -222,6 +225,7 @@ html {
 
 @media only screen and (max-width: 768px) {
     .hero {
+        height: 80vh;
         .container {
             padding-top: 50px;
             .terms {
