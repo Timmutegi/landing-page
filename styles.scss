@@ -221,9 +221,9 @@ html {
 
 @media only screen and (max-width: 768px) {
     .hero {
-        min-height: 400px;
+        min-height: 300px;
         .container {
-            padding-top: 80px;
+            padding-top: 50px;
             .terms {
                 width: 100%;
                 font-size: 11px;
@@ -271,10 +271,10 @@ html {
         .grids {
             flex-direction: column;
             .one {
-                margin: 0 auto;
+                // margin: 0 auto;
             }
             .three {
-                margin: 0 auto;
+                // margin: 0 auto;
             }
             .two {
                 margin-top: 20px;
