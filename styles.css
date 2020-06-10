@@ -52,54 +52,10 @@ html {
 }
 
 .hero .container .terms a {
-  color: #01013F;
+  color: #000080;
 }
 
 .hero .container button {
-  border-radius: 0px;
-  font-size: 13px;
-}
-
-.hero-section .jumbotron {
-  background-color: white;
-  padding: 0px;
-}
-
-.hero-section .jumbotron .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.hero-section .jumbotron .container .display-4 {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.hero-section .jumbotron .container .lead {
-  font-family: 'Lato', sans-serif;
-  color: #0073bd;
-}
-
-.hero-section .jumbotron .container .svg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: flex;
-      -ms-flex-align: flex;
-          align-items: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.hero-section .jumbotron .container .terms {
-  font-size: 13px;
-}
-
-.hero-section .jumbotron .container button {
   border-radius: 0px;
   font-size: 13px;
 }
@@ -242,17 +198,6 @@ html {
   margin-top: 50px;
 }
 
-#main .call-to-action .terms {
-  font-family: 'Lato', sans-serif;
-  font-size: 15px;
-}
-
-#main .call-to-action button {
-  border-radius: 0px;
-  font-size: 13px;
-  font-family: 'Lato', sans-serif;
-}
-
 .footer {
   min-height: 300px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#05aded), to(#0073bd));
@@ -295,17 +240,13 @@ html {
   font-size: 13px;
 }
 
-.footer .container .grids .two {
-  text-align: center;
-}
-
 .footer .container .grids .two h5 {
   color: black;
   font-weight: bold;
 }
 
 .footer .container .grids .two i {
-  padding: 15px;
+  padding: 10px;
 }
 
 .footer .container .grids a {
@@ -330,22 +271,8 @@ html {
     width: 100%;
     font-size: 11px;
   }
-  .jumbotron .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .jumbotron .container .display-4 {
-    font-size: 35px;
-    text-align: center;
-  }
-  .jumbotron .container .lead {
-    text-align: center;
-  }
-  .jumbotron .container button {
-    display: block;
-    margin: 0 auto;
+  .hero .container .terms a {
+    color: #0073bd;
   }
   .steps {
     -webkit-box-orient: vertical;
@@ -387,7 +314,8 @@ html {
     padding-left: 20px;
   }
   .footer .grids .two {
-    margin-top: 20px;
+    padding-left: 20px;
+    margin-top: 40px;
   }
   .footer p {
     padding-bottom: 50px;

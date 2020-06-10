@@ -39,43 +39,12 @@ html {
             font-size: 13px;
             font-family: 'Lato', sans-serif;
             a {
-                color: #01013F;
-                // font-weight: bold;
+                color: #000080;
             }
         }
         button {
             border-radius: 0px;
             font-size: 13px;
-        }
-    }
-}
-
-.hero-section {
-    .jumbotron {
-        background-color: white;
-        padding: 0px;
-        .container {
-            display: flex;
-            align-items: center;
-            .display-4 {
-                font-family: 'Montserrat', sans-serif;
-            }
-            .lead {
-                font-family: 'Lato', sans-serif;
-                color: #0073bd;
-            }
-            .svg {
-                display: flex;
-                align-items: flex;
-                justify-content: center;
-            }
-            .terms {
-                font-size: 13px;
-            }
-            button {
-                border-radius: 0px;
-                font-size: 13px;
-            }
         }
     }
 }
@@ -169,17 +138,6 @@ html {
     .acceptance {
         margin-top: 50px;
     }
-    .call-to-action {
-        .terms {
-            font-family: 'Lato', sans-serif;
-            font-size: 15px;
-        }
-        button {
-            border-radius: 0px;
-            font-size: 13px;
-            font-family: 'Lato', sans-serif;
-        }
-    }
 }
 
 .footer {
@@ -207,13 +165,12 @@ html {
                 font-size: 13px;
             }
             .two {
-                text-align: center;
                 h5 {
                     color: black;
                     font-weight: bold;
                 }
                 i {
-                    padding: 15px;
+                    padding: 10px;
                 }
             }
             a {
@@ -238,22 +195,9 @@ html {
             .terms {
                 width: 100%;
                 font-size: 11px;
-            }
-        }
-    }
-    .jumbotron {
-        .container {
-            flex-direction: column;
-            .display-4 {
-                font-size: 35px;
-                text-align: center;
-            }
-            .lead {
-                text-align: center;
-            }
-            button {
-                display: block;
-                margin: 0 auto;
+                a {
+                    color: #0073bd;
+                }
             }
         }
     }
@@ -288,7 +232,8 @@ html {
                 padding-left: 20px;
             }
             .two {
-                margin-top: 20px;
+                padding-left: 20px;
+                margin-top: 40px;
             }
         }
         p {
