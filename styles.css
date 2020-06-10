@@ -10,6 +10,10 @@ html {
   color: #0073bd !important;
 }
 
+.navbar .ml-auto {
+  font-size: 13px;
+}
+
 .navbar button {
   border: 0px;
 }
