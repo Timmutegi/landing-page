@@ -19,8 +19,8 @@ html {
 }
 
 .hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("images/doctor-man.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/doctor-man.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("images/doctor-man-min.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/doctor-man-min.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,9 +55,12 @@ html {
   color: #000080;
 }
 
-.hero .container button {
+.hero .container .btn {
   border-radius: 0px;
   font-size: 13px;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: none !important;
 }
 
 .text-center {
@@ -118,6 +121,7 @@ html {
 }
 
 .info .col-md-4 {
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

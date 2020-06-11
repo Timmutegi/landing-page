@@ -16,7 +16,7 @@ html {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/doctor-man.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/doctor-man-min.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,9 +42,11 @@ html {
                 color: #000080;
             }
         }
-        button {
+        .btn {
             border-radius: 0px;
             font-size: 13px;
+            box-shadow: none !important;
+            outline: none !important;
         }
     }
 }
@@ -81,6 +83,7 @@ html {
     align-items: center;
     justify-content: center;
     .col-md-4 {
+        cursor: pointer;
         display: flex;
         flex-direction: column;
         align-items: center;
